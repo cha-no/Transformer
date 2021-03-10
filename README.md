@@ -3,6 +3,7 @@ transformer 모델을 활용해 영어 - 프랑스어 번역을 수행
 
 ## model architecture
 
+![image](https://user-images.githubusercontent.com/59329586/110621541-af13d480-81dd-11eb-84b4-f785af375faf.png)
 
 ## usage
 본 코드는 colab환경에서 실행되었음

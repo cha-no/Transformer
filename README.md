@@ -17,7 +17,7 @@ cd transformer
 %run main.py --batch_size 256
 ```
 
-## hyperparameter
+## config
 
 hyperparameter|default| 
 |:---:|:---:|

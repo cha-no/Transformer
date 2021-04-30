@@ -10,8 +10,6 @@ transformer 모델을 구현하여 영어 - 프랑스어 번역을 수행
 다음 코드는 colab 환경에서 실행됨
 ```
 %run main.py
-# 메모리 부족일 경우
-%run main.py --batch_size 256
 ```
 
 ### Config

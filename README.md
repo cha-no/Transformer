@@ -1,23 +1,23 @@
-# transformer
-transformer 모델을 활용해 영어 - 프랑스어 번역을 수행
-
-## model architecture
-
+# Transformer
 ![image](https://user-images.githubusercontent.com/59329586/110621541-af13d480-81dd-11eb-84b4-f785af375faf.png)
 
-## usage
-본 코드는 colab환경에서 실행되었음
-```python
-!git clone https://github.com/cha-no/transformer
+[논문](https://arxiv.org/pdf/1706.03762.pdf)
 
-cd transformer
+transformer 모델을 활용한 영어 - 프랑스어 번역을 수행
 
+## Requirement
+- tensorflow == 2.3.0
+- keras == 2.4.0
+
+## Running main
+
+```
 %run main.py
 # 메모리 부족일 경우
 %run main.py --batch_size 256
 ```
 
-## config
+### config
 
 hyperparameter|default| 
 |:---:|:---:|
@@ -28,11 +28,3 @@ hyperparameter|default|
 |features|512|
 |num_heads|8|
 |fffeatures|2048|
-
-### environment
-tensorflow 2.3.0
-
-keras 2.4.0
-
-### 논문
-[논문](https://arxiv.org/pdf/1706.03762.pdf)

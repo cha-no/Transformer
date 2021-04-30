@@ -47,7 +47,7 @@ tf.random.set_seed(SEED)
 # Config Parsing
 def get_config() -> Any:
     parser = argparse.ArgumentParser(description="Transformer")
-    parser.add_argument("--epochs", default=5, type=int)
+    parser.add_argument("--epochs", default=10, type=int)
     parser.add_argument("--batch_size", default=256, type=int)
     parser.add_argument("--lr", default=0.001, type=float)
     parser.add_argument("--num_layers", default=6, type=int)

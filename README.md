@@ -3,7 +3,7 @@
 
 [논문](https://arxiv.org/pdf/1706.03762.pdf)
 
-transformer 모델을 활용한 영어 - 프랑스어 번역을 수행
+transformer 모델을 구현하여 영어 - 프랑스어 번역을 수행
 
 ## Requirement
 - tensorflow == 2.3.0

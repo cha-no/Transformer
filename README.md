@@ -16,8 +16,8 @@ transformer 모델을 구현하여 영어 - 프랑스어 번역을 수행
 
 hyperparameter|default| 
 |:---:|:---:|
-|epochs|5|
-|batch_size|512|
+|epochs|10|
+|batch_size|256|
 |lr|0.001|
 |num_layers|6|
 |features|512|
